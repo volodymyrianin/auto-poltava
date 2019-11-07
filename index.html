@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Start</title>
+	<title>Autoparts</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -24,19 +24,41 @@
 				<img class="yva-header-img" src="img/logo.png" alt="logo">
 				Autoparts
 			</a>
+			<label for="yva-checkbox" class="yva-label">
+				<input type="checkbox" class="yva-checkbox" id="yva-checkbox">
+				<span class="yva-burgerpart yva-burgerpart-1"></span>
+				<span class="yva-burgerpart yva-burgerpart-2"></span>
+				<span class="yva-burgerpart yva-burgerpart-3"></span>
+				<ul class="yva-respnavigation">
+					<li class="yva-respnavigation-li"><a href="#home" class="yva-respnavigation-link">Home</a></li>
+					<li class="yva-respnavigation-li"><a href="#products" class="yva-respnavigation-link">Our products</a></li>
+					<li class="yva-respnavigation-li"><a href="#about" class="yva-respnavigation-link">About us</a></li>
+					<li class="yva-respnavigation-li"><a href="#contacts" class="yva-respnavigation-link">Our contacts</a></li>
+				</ul>
+			</label>
 			<ul class="yva-header-nav">
 				<li class="yva-header-nav-li">
-					<a href="#" class="yva-header-nav-link">
+					<a href="#home" class="yva-header-nav-link">
+						Home
+					</a>
+				</li>
+				<li class="yva-header-nav-li">
+					<a href="#products" class="yva-header-nav-link">
+						Our products
+					</a>
+				</li>
+				<li class="yva-header-nav-li">
+					<a href="#about" class="yva-header-nav-link">
 						About us
 					</a>
 				</li>
 				<li class="yva-header-nav-li">
-					<a href="#" class="yva-header-nav-link">
-						Contacts
+					<a href="#contacts" class="yva-header-nav-link">
+						Our contacts
 					</a>
 				</li>
 			</ul>
-			<h1 class="yva-title yva-header-title">
+			<h1 class="yva-title yva-header-title" id="home">
 				Autoparts in Poltava
 			</h1>
 			<h2 class="yva-title yva-title-secondary yva-header-title yva-header-title-secondary">
@@ -47,7 +69,7 @@
 	</header>
 	<main role="yva-main" class="yva-main">
 		<section class="yva-goods yva-container">
-			<h3 class="yva-goods-title yva-title yva-title-secondary">
+			<h3 class="yva-goods-title yva-title yva-title-secondary" id="products">
 				Any Goods You Ever Needed 
 			</h3>
 			<h2 class="yva-goods-title yva-title">
@@ -203,7 +225,7 @@
 		<section class="yva-about">
 			<div class="yva-about-mask">
 				<div class="yva-container yva-about-container">
-					<h2 class="yva-about-title yva-title">
+					<h2 class="yva-about-title yva-title" id="about">
 						Autoparts Poltava
 					</h2>
 					<h2 class="yva-about-title-secondary yva-title yva-title-secondary">
@@ -216,7 +238,7 @@
 			</div>
 		</section>
 		<section class="yva-contacts yva-container">
-			<h2 class="yva-contacts-title yva-title">
+			<h2 class="yva-contacts-title yva-title" id="contacts">
 				Our Contacts
 			</h2>
 			<div class="yva-contacts-wrapper">
