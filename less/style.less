@@ -84,9 +84,10 @@ a{
 	right: 280px;
 }
 .yva-respnavigation{
+	display: none;
 	position: absolute;
 	top: 0px;
-	right: -280px;
+	right: 0;
 	padding: 0;
 	margin: 0;
 	transition: all 1000ms ease;
@@ -110,6 +111,7 @@ a{
 .yva-checkbox:checked ~ .yva-respnavigation{
 	right: 0;
 	opacity: 1;
+	display: block;
 }
 /*        */
 .yva-title{
@@ -422,6 +424,7 @@ a{
 	right: 10px;
 	font-size: 1px;
 	transition: all 1000ms ease;
+	z-index: 7;
 	&-1{
 		opacity: 1;
 	}
@@ -435,18 +438,23 @@ a{
 .yva-checkbox:checked ~ .yva-burgerpart-2{
 	transform: rotate(-45deg);
 	top: 26px;
-	right: 280px;
+	right: 240px;
+	background-color: green;
 }
 .yva-checkbox:checked ~ .yva-burgerpart-3{
 	transform: rotate(-315deg);
 	top: 26px;
-	right: 280px;
+	right: 240px;
+	background-color: green;
 }
 .yva-checkbox:checked ~ .yva-burgerpart-1{
 	opacity: 0;
-	right: 280px;
+	right: 240px;
+	background-color: green;
 }
 .yva-respnavigation{
+	overflow: hidden;
+	z-index: 3;
 	position: absolute;
 	top: 0px;
 	right: -280px;
@@ -458,6 +466,7 @@ a{
 	background-color: white;
 	&-li{
 		padding: 18px;
+		padding-left: 50px;
 		border-bottom: 1px solid rgba(60, 73, 85, 0.9);
 	}
 	&-link{
@@ -472,6 +481,7 @@ a{
 }
 .yva-checkbox:checked ~ .yva-respnavigation{
 	right: 0;
+	display: block;
 	opacity: 1;
 }
 /*        */
@@ -683,16 +693,18 @@ a{
 		width: 100%;
 	}
 	&-phone{
-		padding-left: 50px;
+		padding-left: 80px;
 		font-size: 22px;
 		font-weight: 700;
 		margin: 0;
-		background: url(../img/cell.png) 2% 50% no-repeat;
+		background: url(../img/cell.png) 12% 50% no-repeat;
 		background-size: 12%;
+		padding-bottom: 16px;
+		padding-top: 16px;
 		&:nth-child(2){
-			background: url(../img/home.png) 72% 50% no-repeat;
+			background: url(../img/home.png) 86% 50% no-repeat;
 			background-size: 12%;
-			padding-left: 6px;
+			padding-left: 80px;
 		}
 	}
 	&-adress{
@@ -759,6 +771,7 @@ a{
 	padding-left: 5px;
 	padding-right: 5px;
 	margin: 0 auto;
+	position: relative;
 }
 /* burger and respnavigation*/
 .yva-checkbox{
@@ -783,6 +796,7 @@ a{
 	right: 10px;
 	font-size: 1px;
 	transition: all 1000ms ease;
+	z-index: 7;
 	&-1{
 		opacity: 1;
 	}
@@ -796,18 +810,23 @@ a{
 .yva-checkbox:checked ~ .yva-burgerpart-2{
 	transform: rotate(-45deg);
 	top: 26px;
-	right: 280px;
+	right: 240px;
+	background-color: green;
 }
 .yva-checkbox:checked ~ .yva-burgerpart-3{
 	transform: rotate(-315deg);
 	top: 26px;
-	right: 280px;
+	right: 240px;
+	background-color: green;
 }
 .yva-checkbox:checked ~ .yva-burgerpart-1{
 	opacity: 0;
-	right: 280px;
+	right: 240px;
+	background-color: green;
 }
 .yva-respnavigation{
+	overflow: hidden;
+	z-index: 3;
 	position: absolute;
 	top: 0px;
 	right: -280px;
@@ -819,6 +838,7 @@ a{
 	background-color: white;
 	&-li{
 		padding: 18px;
+		padding-left: 50px;
 		border-bottom: 1px solid rgba(60, 73, 85, 0.9);
 	}
 	&-link{
@@ -833,6 +853,7 @@ a{
 }
 .yva-checkbox:checked ~ .yva-respnavigation{
 	right: 0;
+	display: block;
 	opacity: 1;
 }
 /*        */
@@ -1121,6 +1142,7 @@ a{
 	padding-left: 5px;
 	padding-right: 5px;
 	margin: 0 auto;
+	position: relative;
 }
 /* burger and respnavigation*/
 .yva-checkbox{
@@ -1145,6 +1167,7 @@ a{
 	right: 10px;
 	font-size: 1px;
 	transition: all 1000ms ease;
+	z-index: 7;
 	&-1{
 		opacity: 1;
 	}
@@ -1158,18 +1181,23 @@ a{
 .yva-checkbox:checked ~ .yva-burgerpart-2{
 	transform: rotate(-45deg);
 	top: 26px;
-	right: 280px;
+	right: 240px;
+	background-color: green;
 }
 .yva-checkbox:checked ~ .yva-burgerpart-3{
 	transform: rotate(-315deg);
 	top: 26px;
-	right: 280px;
+	right: 240px;
+	background-color: green;
 }
 .yva-checkbox:checked ~ .yva-burgerpart-1{
 	opacity: 0;
-	right: 280px;
+	right: 240px;
+	background-color: green;
 }
 .yva-respnavigation{
+	overflow: hidden;
+	z-index: 3;
 	position: absolute;
 	top: 0px;
 	right: -280px;
@@ -1181,6 +1209,7 @@ a{
 	background-color: white;
 	&-li{
 		padding: 18px;
+		padding-left: 50px;
 		border-bottom: 1px solid rgba(60, 73, 85, 0.9);
 	}
 	&-link{
@@ -1195,6 +1224,7 @@ a{
 }
 .yva-checkbox:checked ~ .yva-respnavigation{
 	right: 0;
+	display: block;
 	opacity: 1;
 }
 /*        */
@@ -1488,6 +1518,7 @@ a{
 	padding-left: 5px;
 	padding-right: 5px;
 	margin: 0 auto;
+	position: relative;
 }
 /* burger and respnavigation*/
 .yva-checkbox{
@@ -1512,6 +1543,7 @@ a{
 	right: 10px;
 	font-size: 1px;
 	transition: all 1000ms ease;
+	z-index: 7;
 	&-1{
 		opacity: 1;
 	}
@@ -1525,18 +1557,23 @@ a{
 .yva-checkbox:checked ~ .yva-burgerpart-2{
 	transform: rotate(-45deg);
 	top: 26px;
-	right: 280px;
+	right: 240px;
+	background-color: green;
 }
 .yva-checkbox:checked ~ .yva-burgerpart-3{
 	transform: rotate(-315deg);
 	top: 26px;
-	right: 280px;
+	right: 240px;
+	background-color: green;
 }
 .yva-checkbox:checked ~ .yva-burgerpart-1{
 	opacity: 0;
-	right: 280px;
+	right: 240px;
+	background-color: green;
 }
 .yva-respnavigation{
+	overflow: hidden;
+	z-index: 3;
 	position: absolute;
 	top: 0px;
 	right: -280px;
@@ -1548,6 +1585,7 @@ a{
 	background-color: white;
 	&-li{
 		padding: 18px;
+		padding-left: 50px;
 		border-bottom: 1px solid rgba(60, 73, 85, 0.9);
 	}
 	&-link{
@@ -1562,6 +1600,7 @@ a{
 }
 .yva-checkbox:checked ~ .yva-respnavigation{
 	right: 0;
+	display: block;
 	opacity: 1;
 }
 /*        */
@@ -1859,6 +1898,7 @@ a{
 	padding-left: 5px;
 	padding-right: 5px;
 	margin: 0 auto;
+	position: relative;
 }
 /* burger and respnavigation*/
 .yva-checkbox{
@@ -1883,6 +1923,7 @@ a{
 	right: 10px;
 	font-size: 1px;
 	transition: all 1000ms ease;
+	z-index: 7;
 	&-1{
 		opacity: 1;
 	}
@@ -1896,18 +1937,23 @@ a{
 .yva-checkbox:checked ~ .yva-burgerpart-2{
 	transform: rotate(-45deg);
 	top: 26px;
-	right: 280px;
+	right: 240px;
+	background-color: green;
 }
 .yva-checkbox:checked ~ .yva-burgerpart-3{
 	transform: rotate(-315deg);
 	top: 26px;
-	right: 280px;
+	right: 240px;
+	background-color: green;
 }
 .yva-checkbox:checked ~ .yva-burgerpart-1{
 	opacity: 0;
-	right: 280px;
+	right: 240px;
+	background-color: green;
 }
 .yva-respnavigation{
+	overflow: hidden;
+	z-index: 3;
 	position: absolute;
 	top: 0px;
 	right: -280px;
@@ -1919,6 +1965,7 @@ a{
 	background-color: white;
 	&-li{
 		padding: 18px;
+		padding-left: 50px;
 		border-bottom: 1px solid rgba(60, 73, 85, 0.9);
 	}
 	&-link{
@@ -1933,6 +1980,7 @@ a{
 }
 .yva-checkbox:checked ~ .yva-respnavigation{
 	right: 0;
+	display: block;
 	opacity: 1;
 }
 /*        */
